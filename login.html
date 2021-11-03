@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/general/fonts.css">
+    <link rel="stylesheet" href="/css/general/nav.css">
+    <link rel="stylesheet" href="/css/loginCSS/login.css">
+
+    <link rel="stylesheet" href="/css/general/navmedia.css">
+    <link rel="stylesheet" href="/css/loginCSS/loginmedia.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Website</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="menuBtn" onclick="MobileNavShow()">
+                <img src="/img/menu.png" alt="Menu Button" id="menuBtn-img">
+            </div>
+            <div class="leftNav">
+                <a href="login.html" class="leftNav-anchors">LOGIN</a>
+                <a href="signup.html" class="leftNav-anchors">SIGNUP</a>
+                <a href="contact.html" class="leftNav-anchors">CONTACT</a>
+                <a href="index.html" class="leftNav-anchors">HOME</a>
+            </div>
+
+            <a href="cart.html" class="cartAnchor">
+                <div class="logo">
+                    <img src="/img/cart.png" alt="Cart" class="cart-image">
+                    <span class="cartQty">1</span>
+                </div>
+            </a>
+            
+            <div class="rightNav">
+                <a class="leftNav-anchors">ABOUT</a>
+                <a href="purchases.html" class="leftNav-anchors">PURCHASES</a>
+                <a href="profile.html" class="leftNav-anchors">PROFILE</a>
+                <a class="leftNav-anchors">SERVICES</a>
+            </div>
+        </nav>
+        <div id="MobileNav-left">
+            <p id="xBtn" onclick="MobileNavHide()">X</p>
+
+
+            <a href="login.html" class="leftNav-anchors">LOGIN</a>
+                <a href="signup.html" class="leftNav-anchors">SIGNUP</a>
+                <a href="contact.html" class="leftNav-anchors">CONTACT</a>
+                <a href="index.html" class="leftNav-anchors">HOME</a>
+
+                <a class="leftNav-anchors">ABOUT</a>
+                <a href="purchases.html" class="leftNav-anchors">PURCHASES</a>
+                <a href="profile.html" class="leftNav-anchors">PROFILE</a>
+                <a class="leftNav-anchors">SERVICES</a>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main>
+        <div class="introDiv">
+            <h1 class="introDiv-para">LOGIN</h1>
+        </div>
+
+        <div class="searchBar-div">
+            <form action="/" method="get">
+                <input type="text" name="username" id="username" class="inputFields" placeholder="Enter your useraname">
+
+                <input type="password" name="password" id="password" class="inputFields" placeholder="Enter your password">
+
+                <button type="submit" class="submitBtn">LOGIN</button>
+            </form>
+        </div>
+
+        
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p class="footer-para">&copy; 2021 CART WEBSITE</p>
+    </footer>
+
+    <script src="/js/menu.js"></script>
+
+
+
+</body>
+</html>
